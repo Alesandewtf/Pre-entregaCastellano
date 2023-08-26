@@ -1,0 +1,99 @@
+html {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #acecf7 !important;
+}
+.container-fluid {
+  padding: 10px;
+  background-color: #fff9fb;
+}
+.nav_opcion {
+  font-size: 30px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+/* TEXTO SUPERIOR */
+.texto-descriptivo {
+  text-align: center;
+}
+/* VIDEO CENTRAL */
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+/* ICONOS */
+.img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.image_product {
+  height: 100px;
+  margin-top: 50px;
+}
+
+.image_product:hover {
+  height: 200px;
+}
+
+.img-description {
+  text-align: center;
+  font-size: 20px;
+}
+.oms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 70px;
+}
+
+.oms-img {
+  display: flex;
+  width: 100px;
+  height: 90px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+}
+.row-row-cols-2 {
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.receta-img {
+  font-size: 100px;
+}
+.recetas {
+  margin-top: 50px;
+}
+
+.container-text-center {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+@media (max-width: 600px) {
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
